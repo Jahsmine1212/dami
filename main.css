@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(Images/bg1.jpg);
+    width: 100vw;
+    min-height: 100vh;
+    background-size: 100% 100%;
+    animation-name: move;
+    animation-duration: 10s;
+    font-size: 60px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    from{background-image: url(Images/bg1.jpg);}
+    to{background-image: url(Images/bg7.jpg);}
+}
+
+#content{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+#subtitle{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    line-height: 2;
+
+}
+
+p{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    line-height: 2;
+}
+
+#next{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 15px 60px 15px 60px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+}
+
+a{
+    font-size: 30px;
+    color: black;
+}
+
+a:hover{
+    color: darkorange;
+}
+
+a:active{
+    color: white;
+}
+
+#bottom{
+    color: white;
+    text-shadow: 60px 60px 60px black;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    float: left;
+}
